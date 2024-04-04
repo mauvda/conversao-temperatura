@@ -1,4 +1,4 @@
-FROM node:20.9.0
+FROM node:20.9.0-alpine3.18
 EXPOSE 8080
 WORKDIR /app
 COPY package-lock.json .
