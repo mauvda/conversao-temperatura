@@ -1,4 +1,4 @@
-FROM node
+FROM node:20.9.0
 EXPOSE 8080
 WORKDIR /app
 COPY package-lock.json .
